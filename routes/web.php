@@ -11,6 +11,12 @@ Route::get('/', function () {
 // routes/web.php
 Route::get('/', [LandingPageController::class, 'index']);
 
+// routes/web.php
+Route::get('/smm', [LandingPageController::class, 'smmLanding']);
+
+// routes/web.php
+Route::get('/dev', [LandingPageController::class, 'devLanding']);
+
 
 // routes/web.php
 Route::prefix('admin')->group(function () {

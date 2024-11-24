@@ -11,5 +11,15 @@ class LandingPageController extends Controller
     {
         return view('landing.index');
     }
+
+    public function smmLanding()
+    {
+        return view('landing.smm-landing');
+    }
+
+    public function devLanding()
+    {
+        return view('landing.dev-landing');
+    }
 }
 
